@@ -1,0 +1,24 @@
+/* Tipos de estilização  */
+.error {
+    border: 2px solid rgb(95, 33, 32);
+    color: rgb(95, 33, 32);
+    background-color: rgb(253, 237, 237) !important;
+}
+
+.warning {
+    border: 2px solid rgb(102, 60, 0);
+    color: rgb(102, 60, 0);
+    background-color: rgb(255, 244, 229) !important;
+}
+
+.info {
+    border: 2px solid rgb(1, 67, 97);
+    color: rgb(1, 67, 97);
+    background-color:rgb(229, 246, 253)  !important;
+}
+
+.success {
+    border: 2px solid rgb(30,70, 32);
+    color: rgb(30,70, 32);
+    background-color: rgb(237, 247,237) !important;
+}
