@@ -1,9 +1,10 @@
 import { createStitches } from "@stitches/react"; 
 import localFont from 'next/font/local'
 
-const BROmnyBold = localFont({ src: '../assets/fonts/FontsFreeNetBROmnyBold.ttf', weight: '400' });
-const BROmnyMedium = localFont({ src: '../assets/fonts/FontsFreeNetBROmnyMedium.ttf', weight: '400' });
-const BROmnyRegular = localFont({ src: '../assets/fonts/FontsFreeNetBROmnyRegular.ttf', weight: '300' });
+const BrownStdBold = localFont({ src: '../assets/fonts/BrownStd-Bold.ttf', weight: '400' });
+const BrownStdLight = localFont({ src: '../assets/fonts/BrownStd-Light.ttf', weight: '400' });
+const BrownStdRegular = localFont({ src: '../assets/fonts/BrownStd-Regular.ttf', weight: '400' });
+const BrownStdThin = localFont({ src: '../assets/fonts/BrownStd-Thin.ttf', weight: '400' });
 
 export const { styled, globalCss, keyframes, getCssText, theme} =
 createStitches({
@@ -16,9 +17,10 @@ createStitches({
                rosa: '#E71D8D;',
         },
         fonts: {
-            BROmnyBold: `${BROmnyBold.style.fontFamily}, sans-serif`,
-            BROmnyMedium: `${BROmnyMedium.style.fontFamily}, sans-serif`,
-            BROmnyRegular: `${BROmnyRegular.style.fontFamily}, sans-serif`,
+            BrownStdBold: `${BrownStdBold.style.fontFamily}, sans-serif`,
+            BrownStdLight: `${BrownStdLight.style.fontFamily}, sans-serif`,
+            BrownStdRegular: `${BrownStdRegular.style.fontFamily}, sans-serif`,
+            BrownStdThin: `${BrownStdThin.style.fontFamily}, sans-serif`,
         }
     }
 })

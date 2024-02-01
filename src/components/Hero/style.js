@@ -29,7 +29,7 @@ export const HeroStyle = styled("section", {
       ".input-url": {
         outline: 'none',
         width: "100%",
-        maxWidth: "990px",
+        maxWidth: "100%",
         height: "60px",
         borderRadius: "25px",
         padding: "15px 40px",

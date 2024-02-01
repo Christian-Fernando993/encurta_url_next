@@ -11,6 +11,8 @@ export const HeaderStyle = styled('header', {
     display: 'flex',
     alignItems: 'center',
     [`${Container}`]: {
+        display: 'flex',
+        justifyContent: 'center',
         '.logo': {
             width: '187px',
         },
@@ -18,8 +20,6 @@ export const HeaderStyle = styled('header', {
 
     '@media (max-width: 640px)': {
         [`${Container}`]: {
-            display: 'flex',
-            justifyContent: 'center',
             '.logo': {
                 width: '150px',
             }

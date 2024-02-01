@@ -6,7 +6,7 @@ export const globalStyles = globalCss({
         margin: 0,
         border: 0,
         boxSizing: 'border-box',
-        fontFamily: '$BROmnyBold',
+        fontFamily: '$BrownStdBold',
         listStyle: 'none',
         '-webkit-font-smoothing': 'antialiased',
     },

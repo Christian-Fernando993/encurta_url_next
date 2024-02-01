@@ -1,20 +1,20 @@
 import { keyframes, styled } from '@stitches/react'
 
-export const AlertStyle = styled('div', {
+export const MessageAlert = styled('div', {
     position: 'absolute',
-    top: 130,
-    right: 5,
-    zIndex: 2,
+    top: '130px',
+    right: '5px',
+    color: '#fff',
+    zIndex: 1,
     maxWidth: '400px',
     minWidth: '280px',
     textAlign: 'center',
-    fontSize: 14,
-    animation: 'slide 1s',
+    fontSize: '14px',
 })
 
 export const AlertContent = styled('div', {
     backgroundColor: '#ccc',
-    borderRadius: 8,
+    borderRadius: '8px',
     width: '100%',
     padding: '1.3rem 1rem',
     display: 'inline-block',
@@ -32,18 +32,17 @@ export const AlertContent = styled('div', {
     }
 })
 
-
 const slide = keyframes({
-    'from':{
-       transform: 'translateX(300px)' 
+    'from': {
+        transform: 'translateX(300px)' 
     },
-    'to':{
+    'to': {
         transform: 'translateX(0px)' 
-    },
+    }
 })
 
 const timer = keyframes({
     'to': {
-        width: '100%',
+        width: '100%'
     }
 })
