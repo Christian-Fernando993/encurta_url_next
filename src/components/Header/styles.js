@@ -10,14 +10,19 @@ export const HeaderStyle = styled('header', {
     backgroundColor: '#fff',
     display: 'flex',
     alignItems: 'center',
-    '.logo': {
-        width: '187px',
+    [`${Container}`]: {
+        '.logo': {
+            width: '187px',
+        },
     },
+
+    '@media (max-width: 640px)': {
+        [`${Container}`]: {
+            display: 'flex',
+            justifyContent: 'center',
+            '.logo': {
+                width: '150px',
+            }
+        }
+    }
 })
-
-
-    // [`${Container}`]: {
-    //     // '.logo':{
-    //     //     margin: '0 auto',
-    //     // }
-    // }
