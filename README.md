@@ -7,9 +7,9 @@
 
 **Comandos**
 
-Para iniciar o projeto é necessario rodar npm install após clonar o repositorio pela primeira vez
+Para iniciar o projeto é necessário rodar npm install após clonar o repositório pela primeira vez
 
-Os comandos a seguir estão disponiveis, com sua respectiva descrição:
+Os comandos a seguir estão disponíveis, com sua respectiva descrição:
 
 ```bash
 # Comandos para subir um servidor local com o projeto em watch-mode + live-reload.
